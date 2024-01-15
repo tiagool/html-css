@@ -6,14 +6,28 @@
     <title>teste de imagens </title>
     <style>
        div.quadrado{
-        border: 1px solid black;
+        background-color: rgba(83, 73, 73, 0.808);
+        border-radius: 10px;
+        display: inline-block;
+        border: 2px solid black;
+        height: 300px;
+        width: 300px;
+       }
+       div#q1{
+        background-color: aqua;
+       }
+       div#q2{
+       background-image: linear-gradient(to right,orange, red);
+       }
+       div#q3{
+        background-image: url('imagens');
        }
     </style>
 </head>
 <body>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
     
 </body>
 </html>
