@@ -10,12 +10,17 @@
     --font2: "Passion One", sans-serif;
     --font3:  "Sriracha", cursive;
 }
-hei
+
+
+
 html, body{
     min-height: 100%vh;
     font-family: var(--font1);
-    font-size: 2vw;
-    
+    font-size: 1.5vw;
+   background-color: rgba(161, 159, 159, 0.068);
+ 
+
+
 }
 header{
     background-color: black;
@@ -49,13 +54,38 @@ line-height: 2em;
 padding-left: 30px;
 font-family: var(--font3)
 font-size 3.5vh;
+margin-left: 15px;
 }
+
+section.image{
+    background-color:rgb(83, 81, 81);
+    color:white;
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+   background-size: cover;
+   background-attachment: fixed;
+    
+}
+
 section.image>p{
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.274);
     display: inline-block;
     padding: 5px;
-}
+    text-shadow: 2px 2px 0px black;
     
+}
+
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right,center;
+   
+
+}
+
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
+
+}
 
 section.normal{
     background-color:white;
@@ -63,10 +93,7 @@ section.normal{
     ;
 }
 
-section.image{
-    background-color:rgb(83, 81, 81);
-    color:white;
-}
+
 
 
 
