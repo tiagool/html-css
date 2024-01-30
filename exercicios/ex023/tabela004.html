@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+
+        }
+        table{ 
+         border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        th, td{
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+ 
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+ <table>
+    <caption>
+        Filmes Favoritos</caption>
+         <thead>
+     
+             <tr>
+                 <th>Grupos</th>
+                 <th>Nomes</th>
+                 <th colspan="3">Filmes</th>
+             </tr>
+         </thead>
+     <tbody>
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Ana Maria Santos</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>Beatriz Souza</td>
+            <td>Hulk</td>
+            <td>Inseption</td>
+            <td>Batman</td>
+        </tr>
+        <tr>
+            <td>Caudia</td>
+            <td>Oblivium</td>
+            <td>Matrix</td>
+            <td>Big hero</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Homens</th>
+            <td>Bruno mendonça</td>
+            <td>Intocaveis</td>
+            <td>Amisnesia</td>
+            <td>Gladiadores </td>
+        </tr>
+        <tr>
+            <td>Daniel Lorenço</td>
+            <td>wall-E</td>
+            <td>Oldboy</td>
+            <td>Dangal</td>
+        </tr>
+        <tr>
+            <td>Fabiano Mota</td>
+            <td>Star wars V</td>
+            <td>Toy Story</td>
+            <td>Taxi driver</td>
+        </tr>
+
+    </tbody>
+</table>
+</body>
+</html>
