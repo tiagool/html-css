@@ -2,6 +2,67 @@
 
 /*todas as midias*/
 
+/*typical device breake points
+-----------------------------------
+celular: Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+noot: Small screens, laptops – 769px — 1024px.
+PC: Desktops, large screens – 1025px — 1200px.
+TV GRANDE:Extra large screens, TV – 1201px, and more.
+
+*/
+
 @media print {
-    
+    *{
+        font-family:'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/icon-print.png);
+    }
+ 
 }
+
+main{
+    border: 2px solid black;
+}
+
+main, h1{
+    text-shadow: none;
+    color: black;
+}
+
+@media screen and (min-width:769px) and (max-width:1024px)  /*NOTBOOK, IPAD e ETC*/ {
+    
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: block;}
+    img#impressora{display: none;}
+    img#computador{display: none;}
+    img#tv{display: none;}
+    }
+
+
+
+
+@media screen and (min-width:1025px) and (max-width:1200px) /*PC*/  {
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#impressora{display: none;}
+    img#computador{display: block;}
+    img#tv{display: none;}
+    }
+
+@media screen and (min-width:1201px) /*GRANDES TELAS*/ {
+    body{background-image: url(../imagens/back-tv.jpg);}
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#impressora{display: none;}
+    img#computador{display: none;}
+    img#tv{display: block;}
+    }
