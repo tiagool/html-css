@@ -27,12 +27,13 @@ header >h1{
     text-align: center;
     padding: 10px;
     border-radius: 20px;
-    width: 100px;
+    width: 50px;
     margin: auto;
     margin-bottom: 10px;
 
 }
 #burger:hover{
+   
     background-color: white;
     color: black;
     cursor: pointer;
@@ -66,9 +67,10 @@ menu > ul >li > a{
 
 menu > ul > li > a:hover{
     background-color: rgba(167, 163, 163, 0.753);
-    box-sizing: border-box;
+    
     text-decoration: overline;
     transition: 0.8s , border 5s;
+    position: center top;
 }
 
 main{
